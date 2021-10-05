@@ -1,0 +1,15 @@
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/bin/Debug/net5.0/C# Version.deps.json
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/bin/Debug/net5.0/C# Version.runtimeconfig.json
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/bin/Debug/net5.0/C# Version.runtimeconfig.dev.json
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/bin/Debug/net5.0/C# Version.dll
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/bin/Debug/net5.0/ref/C# Version.dll
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/bin/Debug/net5.0/C# Version.pdb
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/obj/Debug/net5.0/C# Version.csproj.AssemblyReference.cache
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/obj/Debug/net5.0/C# Version.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/obj/Debug/net5.0/C# Version.AssemblyInfoInputs.cache
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/obj/Debug/net5.0/C# Version.AssemblyInfo.cs
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/obj/Debug/net5.0/C# Version.csproj.CoreCompileInputs.cache
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/obj/Debug/net5.0/C# Version.dll
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/obj/Debug/net5.0/ref/C# Version.dll
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/obj/Debug/net5.0/C# Version.pdb
+/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/obj/Debug/net5.0/C# Version.genruntimeconfig.cache
