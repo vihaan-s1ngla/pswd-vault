@@ -1,16 +1,27 @@
 ﻿using System;
+using System.IO;
 
 namespace C__Version
 {
     class Program
     {
+        static string FirstTimeFileChecker = @"/Users/vihaansingla/desktop/findfile.txt";
+        static string divider1 = "==============================";
+        static string pswd;
+
         static void Main(string[] args){
-            OptionsMenu1();
+            if (File.Exists(FirstTimeFileChecker)) {
+                LockScreen();
+            }
+
+            else {
+                FirstTimeChecker();
+            }
         }
 
 
         static void OptionsMenu1(){
-            short curItem = 0, c;
+            int curItem = 0, c;
 
             ConsoleKeyInfo key;
 
@@ -46,16 +57,17 @@ namespace C__Version
             String keyEquiv = key.Key.ToString();
 
             if (keyEquiv.CompareTo("Enter") == 0){
-                Console.WriteLine("maybe it work?");
+                if(menuItems[curItem] == "Three") {
+                    //Insert code for when enter is pressed for a certain thing
+                    Console.WriteLine("it worky");
+                }
             }
         }
 
 
         static void LockScreen(){
 
-            string pswd = "Password";
 
-            string divider1 = "============================";
             Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (divider1.Length / 2)) + "}", divider1));
             string title = "PASSWORD VAULT";
             Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (title.Length / 2)) + "}", title));
@@ -76,5 +88,22 @@ namespace C__Version
         static void HomeScreen(){
             Console.WriteLine("WELCOME TO YO PASSWORDS BIG DOG");
         }
+
+        static void FirstTimeChecker(){
+            File.Create(FirstTimeFileChecker);
+            Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (divider1.Length / 2)) + "}", divider1));
+            string title = "WELCOME TO THE PASSWORD VAULT";
+            Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (title.Length / 2)) + "}", title));
+            Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (divider1.Length / 2)) + "}", divider1));
+            Console.WriteLine("Create a master password");
+            pswd = (Console.ReadLine());
+            Console.WriteLine("Confirm your password");
+            string ConfirmPassword = (Console.ReadLine());
+            if (ConfirmPassword == pswd) {
+                Console.WriteLine("Your master password has been created, dont forget!");
+                HomeScreen();
+            }
+        }
+        
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/C# Version.csproj",
+      "projectUniqueName": "/Users/vihaansingla/Desktop/Stuff/Codes/pswd-vault/C# Version/C# Version.csproj",
       "projectName": "C# Version",
-      "projectPath": "/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/C# Version.csproj",
+      "projectPath": "/Users/vihaansingla/Desktop/Stuff/Codes/pswd-vault/C# Version/C# Version.csproj",
       "packagesPath": "/Users/vihaansingla/.nuget/packages/",
-      "outputPath": "/Users/vihaansingla/Desktop/Stuff/Codes/PasswordVault/C# Version/obj/",
+      "outputPath": "/Users/vihaansingla/Desktop/Stuff/Codes/pswd-vault/C# Version/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vihaansingla/.nuget/NuGet/NuGet.Config"
