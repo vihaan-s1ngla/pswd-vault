@@ -1,13 +1,17 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
+using System.Text;
 
 namespace C__Version
 {
     class Program
     {
-        static string FirstTimeFileChecker = @"/Users/vihaansingla/desktop/findfile.txt";
-        static string divider1 = "==============================";
+        static string FirstTimeFileChecker = "~";
+        static string divider1 = "================================";
         static string pswd;
+        static IDictionary<int, string> MasterPasswordDictionary = new Dictionary<int, string>();
+        
 
         static void Main(string[] args){
             if (File.Exists(FirstTimeFileChecker)) {
@@ -18,7 +22,6 @@ namespace C__Version
                 FirstTimeChecker();
             }
         }
-
 
         static void OptionsMenu1(){
             int curItem = 0, c;
@@ -64,7 +67,6 @@ namespace C__Version
             }
         }
 
-
         static void LockScreen(){
 
 
@@ -95,13 +97,22 @@ namespace C__Version
             string title = "WELCOME TO THE PASSWORD VAULT";
             Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (title.Length / 2)) + "}", title));
             Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (divider1.Length / 2)) + "}", divider1));
+            CreateMasterPassword();
+        }
+
+        static void CreateMasterPassword() {
             Console.WriteLine("Create a master password");
             pswd = (Console.ReadLine());
             Console.WriteLine("Confirm your password");
             string ConfirmPassword = (Console.ReadLine());
             if (ConfirmPassword == pswd) {
                 Console.WriteLine("Your master password has been created, dont forget!");
+                MasterPasswordDictionary.Add(1, pswd);
                 HomeScreen();
+            }
+            else{
+                Console.WriteLine("These passwords do not match, please try again.");
+                CreateMasterPassword();
             }
         }
         

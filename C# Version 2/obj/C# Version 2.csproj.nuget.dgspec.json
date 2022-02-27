@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vihaansingla/Desktop/Stuff/Codes/pswd-vault/C# Version/C# Version.csproj": {}
+    "/Users/vihaansingla/Desktop/Stuff/Codes/pswd-vault/C# Version 2/C# Version 2.csproj": {}
   },
   "projects": {
-    "/Users/vihaansingla/Desktop/Stuff/Codes/pswd-vault/C# Version/C# Version.csproj": {
+    "/Users/vihaansingla/Desktop/Stuff/Codes/pswd-vault/C# Version 2/C# Version 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vihaansingla/Desktop/Stuff/Codes/pswd-vault/C# Version/C# Version.csproj",
-        "projectName": "C# Version",
-        "projectPath": "/Users/vihaansingla/Desktop/Stuff/Codes/pswd-vault/C# Version/C# Version.csproj",
+        "projectUniqueName": "/Users/vihaansingla/Desktop/Stuff/Codes/pswd-vault/C# Version 2/C# Version 2.csproj",
+        "projectName": "C# Version 2",
+        "projectPath": "/Users/vihaansingla/Desktop/Stuff/Codes/pswd-vault/C# Version 2/C# Version 2.csproj",
         "packagesPath": "/Users/vihaansingla/.nuget/packages/",
-        "outputPath": "/Users/vihaansingla/Desktop/Stuff/Codes/pswd-vault/C# Version/obj/",
+        "outputPath": "/Users/vihaansingla/Desktop/Stuff/Codes/pswd-vault/C# Version 2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vihaansingla/.nuget/NuGet/NuGet.Config"
